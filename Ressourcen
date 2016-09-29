@@ -1,0 +1,11 @@
+Eine Übersicht über die verwendeten Ressourcen:
+
+Backend:
+(Openshift Online - Link: https://openshift.redhat.com/)
+Tomcat 7 (JBoss EWS 2.0)
+MySQL 5.5
+
+Frontend:
+Bootstrap 3 (Link: http://getbootstrap.com/)
+jQuery v.1 (Link: https://jquery.com/)
+DataTables - Table plug-in for jQuery (Link: https://datatables.net/)
