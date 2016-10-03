@@ -1,0 +1,24 @@
+Java-Beans
+
+UserBean
+
+Alle Funktionen, die benötigt werden, um den User in der Datenbank zu speichern und um ihn anschließend wieder beim Login zu verifizieren.
+Es erfolgt zudem ein logischer Check der Eingaben.
+
+Food
+
+Dient dazu jedes Nahrungsmittel in der Datenbank einzeln logisch abzubilden.
+
+FoodTableBean
+
+Enthält alle Funktionen, um die Daten der hinterlegten Nahrungsmittel aus der Datenbank abzufragen und diese dann in einem geeigneten Format an die Views und Appls weiterzureichen, sprich Darstellung in HTML oder eine Grundgesamtheit von Nahrungsmitteln für die weitere Verarbeitung.
+
+Database-Beans
+
+MySQL
+
+Dient dazu eine Verbindung zur Datenbank aufzubauen, um Daten auf diese zu schreiben oder von dieser abzufragen.
+
+PasswordStorage
+
+Damit Passwörter sicher in der Datenbank für die einzelnen User hinterlegt werden können, werden diese nicht im Klartext, sondern mit Hash und Salt über diese Klasse und ihre Funktionen verschlüsselt und im Anschluss wieder entschlüsselt für eine Verifizierung des Login eines Users.
